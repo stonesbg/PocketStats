@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PocketStatsHandler", "PocketStatsHandler\PocketStatsHandler.csproj", "{91E13459-C3EB-476B-8E49-30FF0E2652DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{409AFD42-C374-42E9-A663-6B08793B70CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PocketStatsHandlerTests", "PocketStatsHandlerTests\PocketStatsHandlerTests.csproj", "{0761C477-1820-469E-B0DF-CFED192FFE56}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{BF7A2D3E-F7FB-41BE-9018-039E148CF760}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PocketStatsHandler.Contracts", "PocketStatsHandler.Contracts\PocketStatsHandler.Contracts.csproj", "{5F02DDFB-3F0D-4B3A-9AAF-3725FADDFC1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PocketStatsHandler.Model", "PocketStatsHandler.Model\PocketStatsHandler.Model.csproj", "{E7931679-E325-43AC-8210-0E6D52CDC7FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PocketStatsHandler.Utilities", "PocketStatsHandler.Utilities\PocketStatsHandler.Utilities.csproj", "{2D219960-609F-4FB0-83F5-D635822ACECD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91E13459-C3EB-476B-8E49-30FF0E2652DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91E13459-C3EB-476B-8E49-30FF0E2652DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91E13459-C3EB-476B-8E49-30FF0E2652DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91E13459-C3EB-476B-8E49-30FF0E2652DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0761C477-1820-469E-B0DF-CFED192FFE56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0761C477-1820-469E-B0DF-CFED192FFE56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0761C477-1820-469E-B0DF-CFED192FFE56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0761C477-1820-469E-B0DF-CFED192FFE56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F02DDFB-3F0D-4B3A-9AAF-3725FADDFC1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F02DDFB-3F0D-4B3A-9AAF-3725FADDFC1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F02DDFB-3F0D-4B3A-9AAF-3725FADDFC1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F02DDFB-3F0D-4B3A-9AAF-3725FADDFC1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7931679-E325-43AC-8210-0E6D52CDC7FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7931679-E325-43AC-8210-0E6D52CDC7FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7931679-E325-43AC-8210-0E6D52CDC7FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7931679-E325-43AC-8210-0E6D52CDC7FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D219960-609F-4FB0-83F5-D635822ACECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D219960-609F-4FB0-83F5-D635822ACECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D219960-609F-4FB0-83F5-D635822ACECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D219960-609F-4FB0-83F5-D635822ACECD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0761C477-1820-469E-B0DF-CFED192FFE56} = {409AFD42-C374-42E9-A663-6B08793B70CF}
+	EndGlobalSection
+EndGlobal
